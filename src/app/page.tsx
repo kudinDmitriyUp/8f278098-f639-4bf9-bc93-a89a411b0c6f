@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -44,14 +44,8 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroBillboard
-          title="Let's F*ck Around and Find Out"
+          logoText="Let's F*ck Around and Find Out"
           description="Join us for unscripted adventures across the globe. No plans, no limits, just pure exploration and unforgettable moments."
-          tag="New Episodes Weekly"
-          tagIcon={Sparkles}
-          buttons={[
-            { text: "Watch Now", href: "https://youtube.com" },
-            { text: "Learn More", href: "destinations" }
-          ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SiMkwDFagCJqdtr8SgryeO9Cj/uploaded-1765890682623-xcxkcxik.jpg"
           imageAlt="Adventurous travelers exploring exotic destinations"
           frameStyle="card"
