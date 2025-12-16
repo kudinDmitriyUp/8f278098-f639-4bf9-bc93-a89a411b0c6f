@@ -44,6 +44,7 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroBillboard
+          title="Let's F*ck Around and Find Out"
           description="Join us for unscripted adventures across the globe. No plans, no limits, just pure exploration and unforgettable moments."
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SiMkwDFagCJqdtr8SgryeO9Cj/uploaded-1765890682623-xcxkcxik.jpg"
           imageAlt="Adventurous travelers exploring exotic destinations"
